@@ -25,6 +25,7 @@ p{
 a{
   text-decoration: none;
   color:black;
+  outline: none;
 }
 .wrapper{
   height:auto;
@@ -184,6 +185,5 @@ label{
     font-size: 2em;
     top:90%;
   }
-  #artCategories{
-    padding-top: 90px;
+
 }
