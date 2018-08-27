@@ -22,7 +22,7 @@
     </div>
   </div>
             <!-- CV -->
-            <p>Contact</p>
+            <p class="pageLabel"><a href="./index.html">Lucretia E. McGuff-Silverman</a> - Contact</p>
             <hr/>
   <div class="pageDiv" id="contactDiv">
     <form id="contactForm" action="contact.php" method="post">

@@ -61,7 +61,9 @@ a{
   width:100%;
   text-align:center;
 }
-
+.pageLabel{
+  padding-left: 5px;
+}
 /*Pages*/
 
 .pagesWrapper{
@@ -101,6 +103,50 @@ a{
   font-family: 'Roboto Condensed';
 }
 
+/* Galleries */
+#paintingList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.galleryDiv{
+  height: 20vh;
+  width:370px;
+  min-height: 370px;
+  border: 1px solid black;
+  transition: .3s;
+}
+.galleryPicImg{
+  height: 16vh;
+  width:100%;
+  object-fit: cover;
+  object-position: top;
+  min-height: 300px;
+  border: none;
+}
+.infoDiv{
+  height: 4vh;
+  min-height: 70px;
+  background: #e7e7e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: .4vh;
+  font-size: 1.6em;
+  font-family: 'Roboto Condensed';
+}
+.galleryPicTitle,
+.galleryPicSize,
+.galleryPicPrice{
+  height: 4vh;
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: .4vh;
+  font-size: 1.6em;
+  font-family: 'Roboto Condensed';
+}
+
   /*CV*/
 #cvText p{
   margin: 3vmin;
@@ -116,7 +162,7 @@ a{
 
 /* Contact */
 .pageDiv{
-  height: calc(100vh - 53px - 70px - 90px)
+  min-height: calc(100vh - 5vh - 70px - 90px)
 }
 #contactDiv{
   background-image: url("./img/4.jpg");
@@ -124,13 +170,14 @@ a{
   background-size: cover;
   object-fit: cover;
   margin-top: 0;
+  padding-bottom: 3vh;
 }
 #contactForm{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 3vh;
+
 }
 .contactInput{
   background-color: #f5f5f5;
@@ -146,7 +193,8 @@ a{
   padding-left: 1vw;
 }
 .contactInputText{
-  height: 30vh;
+  padding-top: 1vh;
+  height: 35vh;
 }
 #formSubmit{
   margin-top: 2vh;
