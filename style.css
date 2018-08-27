@@ -114,6 +114,7 @@ a{
   min-height: 370px;
   border: 1px solid black;
   transition: .3s;
+  background: #e7e7e3;
 }
 .galleryPicImg{
   height: 16vh;
@@ -126,7 +127,6 @@ a{
 .infoDiv{
   height: 4vh;
   min-height: 70px;
-  background: #e7e7e3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,14 +137,7 @@ a{
 .galleryPicTitle,
 .galleryPicSize,
 .galleryPicPrice{
-  height: 4vh;
-  min-height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: .4vh;
-  font-size: 1.6em;
-  font-family: 'Roboto Condensed';
+ margin-right: 1vw;
 }
 
   /*CV*/
