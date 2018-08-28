@@ -8,9 +8,11 @@ html{
   padding: 0;
   margin: 0;
 }
+body{
+    background: #f5f5f5;
+}
 hr{
-  margin: 0;
-  padding: 0;
+
 }
 h1{
   font-family: 'Source Sans Pro', sans-serif;
@@ -31,14 +33,8 @@ p{
 }
 a{
   text-decoration: none;
-  color:black;
+  color:#999;
   outline: none;
-}
-.wrapper{
-  padding: 0;
-  height:auto;
-  width:100vw;
-  font-size: 62.5%;
 }
 #bgImg{
   height: 100%;
@@ -68,14 +64,18 @@ a{
 
 .pagesWrapper{
   background: #f5f5f5;
-  padding-top: 90px;
+  font-size: 62.5%;
+  margin-top:90px;
 }
-#artCategories{
+
+/* Galleries */
+
+.galleryHolder{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.categoryPic{
+.galleryPicHolder{
   height: 20vh;
   width:370px;
   min-height: 370px;
@@ -84,7 +84,7 @@ a{
   margin: 10px;
   transition: .3s;
 }
-.categoryPic img{
+.galleryPicHolder img{
   height: 16vh;
   width:100%;
   object-fit: cover;
@@ -92,39 +92,7 @@ a{
   min-height: 300px;
   border: none;
 }
-.categoryText{
-  height: 4vh;
-  min-height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: .4vh;
-  font-size: 1.6em;
-  font-family: 'Roboto Condensed';
-}
-
-/* Galleries */
-#paintingList{
-  display: flex;
-  flex-wrap: wrap;
-}
-.galleryDiv{
-  height: 20vh;
-  width:370px;
-  min-height: 370px;
-  border: 1px solid black;
-  transition: .3s;
-  background: #e7e7e3;
-}
-.galleryPicImg{
-  height: 16vh;
-  width:100%;
-  object-fit: cover;
-  object-position: top;
-  min-height: 300px;
-  border: none;
-}
-.infoDiv{
+.galleryPicInfoText{
   height: 4vh;
   min-height: 70px;
   display: flex;
@@ -137,7 +105,7 @@ a{
 .galleryPicTitle,
 .galleryPicSize,
 .galleryPicPrice{
- margin-right: 1vw;
+ margin-right: 10px;
 }
 
   /*CV*/
@@ -235,6 +203,7 @@ footer p{
   font-size: 1.9em;
 }
 .menu{
+  height: 70px;
   display: flex;
   justify-content: space-around;
   background: -moz-linear-gradient(top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
@@ -243,19 +212,22 @@ footer p{
 }
 .menu a{
   clear:right;
+  color:black;
   font-family: 'Source Sans Pro';
   font-weight: bold;
   width:100%;
   display: flex;
   justify-content: center;
+  transition: .3s;
 }
 .menu a:hover{
+  background: white;
   background: -moz-linear-gradient(top, rgba(255,255,255,0.55) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, rgba(255,255,255,0.55) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, rgba(255,255,255,0.55) 0%,rgba(0,0,0,0) 100%);
 }
 label{
-  margin: 20px 50px 0 0;
+  margin: 0px 35px 0 0;
   font-size: 2.6em;
   line-height: 70px;
   display: none;
@@ -273,11 +245,13 @@ label{
   .menu{
     text-align: center;
     width: 100%;
+    height: 100%;
     display: none;
     background: #e7e7e3;
   }
   .menu a{
     display: block;
+    background: #e7e7e3;
     border-bottom: 2px solid black;
   }
   #toggle:checked + .menu{

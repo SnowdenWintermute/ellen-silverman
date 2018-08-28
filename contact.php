@@ -22,8 +22,8 @@
     </div>
   </div>
             <!-- CV -->
-            <p class="pageLabel"><a href="./index.html">Lucretia E. McGuff-Silverman</a> - Contact</p>
-            <hr/>
+<p class="pageLabel"><a href="./index.html">Lucretia E. McGuff-Silverman</a> - Contact</p>
+<hr/>
   <div class="pageDiv" id="contactDiv">
     <form id="contactForm" action="contact.php" method="post">
     <input class="contactInput" name="name" type="text" required placeholder="Name"/>
@@ -32,6 +32,7 @@
     <button class="button transparentButton" name="submit" id="formSubmit" type="submit">Send</i></button>
   </form>
   </div>
+  
 <footer>
   <div id="footerLinks">
     <a href="./index.html">Home</a>&nbsp;|
@@ -39,7 +40,7 @@
     <a href="./exhibitions.html">Exhibitions</a>&nbsp;|
     <a href="./cv.html">CV</a>&nbsp;|
     <a href="./contact.php">Contact</a>
-</div>
+  </div>
 <p>Ellen Silverman</p>
 </footer>
 

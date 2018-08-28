@@ -22,8 +22,17 @@ let paintings = [
       "price": "$250.00",
       "img":"./img/3.jpg",
       "sold": false
+    },
+    {
+      "id": 3,
+      "title": "Fancy Chair",
+      "size": "5\" x 7\"",
+      "price": "$250.00",
+      "img":"./img/3.jpg",
+      "sold": false
     }
   ]
+
 
   let createPaintingElements = function(p){
     // Object with all the paintings and info
@@ -31,20 +40,20 @@ let paintings = [
     // Fragment to store the elements before "flushing"
     var myDF = document.createDocumentFragment();
     // Parent div in the fragment, all divs append to it
-    var galleryDiv = document.createElement("div");
-    galleryDiv.className += ("galleryDiv")
-    myDF.appendChild(galleryDiv);
 
     // Loop through the paintings array of objects
+
     for(pi of paintings){
+      var galleryDiv = document.createElement("div");
+      galleryDiv.className += ("galleryPicHolder")
+      myDF.appendChild(galleryDiv);
       //img src, class name
       var img = document.createElement("img");
-      img.className += ("galleryPicImg")
       img.src = pi.img;
       galleryDiv.appendChild(img);
       // Info text box at bottom of img
       var infoDiv = document.createElement("div");
-      infoDiv.className = ("infoDiv");
+      infoDiv.className = ("galleryPicInfoText");
       galleryDiv.appendChild(infoDiv);
         var title = document.createElement("div");
         title.className = ("galleryPicTitle")
@@ -59,8 +68,8 @@ let paintings = [
         price.textContent = pi.price;
         infoDiv.appendChild(price);
 
+        paintingList.appendChild(myDF);
     }
-  paintingList.appendChild(myDF);
   }
 
 window.onload = createPaintingElements;
