@@ -69,11 +69,65 @@ a{
 }
 
 /* Galleries */
-
+#backToGallery{
+  width:25vmin;
+  height:8vmin;
+  background: transparent;
+  position: absolute;
+  top:86%;
+  left:50%;
+  transform: translate(-50%,0);
+  border-radius: 15px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 1.6em;
+  font-family: "Roboto Condensed", sans-serif;
+  cursor: pointer;
+}
+#nextImg,
+#prevImg{
+  height: 7vmin;
+  width: 7vmin;
+  border-radius: 15px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  text-shadow: 1px 1px 2px black;
+  position: absolute;
+  top:50%;
+  cursor: pointer;
+}
+#prevImg{
+  left:5%;
+}
+#nextImg{
+  left:95%;
+  transform: translate(-100%,0);
+}
 .galleryHolder{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.hidden{
+  display: none;
+}
+.paintingCloseup{
+  height: 100%;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.paintingCloseup img{
+  max-height:80vh;
+  max-width: 100%;
 }
 .galleryPicHolder{
   height: 20vh;
@@ -91,6 +145,7 @@ a{
   object-position: top;
   min-height: 300px;
   border: none;
+  cursor: pointer;
 }
 .galleryPicInfoText{
   height: 4vh;
@@ -201,14 +256,15 @@ footer p{
   height: 70px;
   line-height: 70px;
   font-size: 1.9em;
-}
-.menu{
-  height: 70px;
-  display: flex;
-  justify-content: space-around;
   background: -moz-linear-gradient(top, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, rgba(0,0,0,0.35) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.menu{
+  height: 70px;
+  width:90vw;
+  display: flex;
+  justify-content: space-around;
 }
 .menu a{
   clear:right;

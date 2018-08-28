@@ -1,38 +1,148 @@
 let paintings = [
-    {
-      "id": 1,
-      "title": "Sunset Beach",
-      "size": "8\" x 10\"",
-      "price": "$400.00",
-      "img":"./img/professorsInteriors/Aunt Tullie s Livingroom.jpg",
-      "sold": false
-    },
-    {
-      "id": 2,
-      "title": "Shipwreck",
-      "size": "8.5\" x 11\"",
-      "price": "$500.00",
-      "img":"./img/2.jpg",
-      "sold": false
-    },
-    {
-      "id": 3,
-      "title": "Fancy Chair",
-      "size": "5\" x 7\"",
-      "price": "$250.00",
-      "img":"./img/3.jpg",
-      "sold": false
-    },
-    {
-      "id": 3,
-      "title": "Fancy Chair",
-      "size": "5\" x 7\"",
-      "price": "$250.00",
-      "img":"./img/3.jpg",
-      "sold": false
-    }
+  {
+    "id": 15,
+    "title": "Aunt Tullie's Living Room ",
+    "size": "11\" X 14\" mat",
+    "Year": 2016,
+    "material": "Acrylic on paper",
+    "price": 400,
+    "category": "The Professor's Interiors",
+    "img": "./img/professorsInteriors/Aunt Tullie s Livingroom.jpg",
+    "Comment": "The Professor always loved Aunt Tullie?s Living Room, it felt like late spring there, even in the middle of winter."
+  },
+  {
+    "id": 16,
+    "title": "Director's Office",
+    "size": "11\" X 14\" mat",
+    "Year": 2016,
+    "material": "Acrylic on paper",
+    "price": 400,
+    "category": "The Professor's Interiors",
+    "img": "./img/professorsInteriors/Directors Office.jpg",
+    "Comment": "The Professor always enjoyed having lunch with the Director in his office."
+  },
+  {
+    "id": 17,
+    "title": "English Living Room",
+    "size": "14\" X 11\" mat",
+    "Year": 2016,
+    "material": "Watercolor on paper",
+    "price": 400,
+    "category": "The Professor's Interiors",
+    "img": "./img/professorsInteriors/English Living Room.jpg",
+    "Comment": "The Professor?s Grandmother?s Living Room in England always brought back fond memories of having High Tea with Grandmother and Aunt Tullie."
+  },
+  {
+    "id": 18,
+    "title": "Favorite Restaurant in Italy",
+    "size": "11\" X 14\" mat",
+    "Year": 2016,
+    "material": "Acrylic on paper",
+    "price": 400,
+    "category": "The Professor's Interiors",
+    "img": "./img/professorsInteriors/Favorite Resturant in Italy.jpg",
+    "Comment": "At the Professor?s favorite restaurant, the food was not as memorable as the people, but there had never been a meal that was not pure delight."
+  },
+  {
+    "id": 19,
+    "title": "Harry's Enclosed Porch",
+    "size": "11\" X 14\" mat",
+    "Year": 2016,
+    "material": "Acrylic on paper",
+    "price": 400,
+    "category": "The Professor's Interiors",
+    "img": "./img/professorsInteriors/Harrys Enclosed Porch.jpg",
+    "Comment": "The Professor and Harry, sat in Harry?s enclosed porch on New Year?s Day and had lunch."
+  },
+  {
+    "id": 20,
+    "title": "Harry's Living Room",
+    "size": "14\" X 11\" mat",
+    "Year": 2016,
+    "material": "Acrylic on paper",
+    "price": 400,
+    "category": "The Professor's Interiors",
+    "img": "./img/professorsInteriors/Harrys Livingroom-1.jpg",
+    "Comment": "The family always spent New Year?s Eve at Harry, the Professor's brother?s house. At midnight the tradition has been to wear the animal mask that they had got in Africa when they were children and tickling each other with peacock feathers. In years past their whole family would get involved, but this year it was just the two of them. It was good to have a brother to share a tradition with."
+  },
+  {
+    "id": 21,
+    "title": "Lydia's for Thanksgiving",
+    "size": "22\" x 28\" mat",
+    "Year": 2017,
+    "material": "Acrylic on paper",
+    "price": 800,
+    "category": "The Professor's Interiors",
+    "img": "./img/professorsInteriors/Lydias House at Thanksgiving.jpg",
+    "Comment": "Lydia always had everyone over for Thanksgiving. During dinner there were people sitting in the hall, and even on the stairs, but somehow there was still stimulating conversation and always laughter."
+  },
+  {
+    "id": 22,
+    "title": "Museum Court Yard",
+    "size": "11\" X 14\" mat",
+    "Year": 2017,
+    "material": "Acrylic on paper",
+    "price": 400,
+    "category": "The Professor's Interiors",
+    "img": "./img/professorsInteriors/Museum's Courtyard.jpg",
+    "Comment": "The museum court yard was the perfect place to do research. It was so nice that they let you take some of their archive material, out there to study."
+  },
+  {
+    "id": 23,
+    "title": "The Professor's Front Hall",
+    "size": "11\" X 14\" mat",
+    "Year": 2015,
+    "material": "Acrylic on paper",
+    "price": 400,
+    "category": "The Professor's Interiors",
+    "img": "./img/professorsInteriors/professors front hall.jpg",
+    "Comment": "The professor?s grandfather clock was a gift from grandfather Smith, it use to sit in the farm house in New Hampshire. When it chimed in the morning one almost expected to hear the rooster crow."
+  },
+  {
+    "id": 24,
+    "title": "The Professor's Study",
+    "size": "14\" X 11\" mat",
+    "Year": 2015,
+    "material": "Acrylic on paper",
+    "price": 400,
+    "category": "The Professor's Interiors",
+    "img": "./img/professorsInteriors/The Professor s Study.jpg",
+    "Comment": "The Geology Club met every second Wednesday at 5:00 here in the study. During that time the room was always packed with life and laughter."
+  },
+  {
+    "id": 25,
+    "title": "The Professor's Unattached Porch",
+    "size": "14\" X 11\" mat",
+    "Year": 2017,
+    "material": "Acrylic on paper",
+    "price": 400,
+    "category": "The Professor's Interiors",
+    "img": "./img/professorsInteriors/The Professors Unattached Porch.jpg",
+    "Comment": "In the Spring the unattached porch was used at a study. Countless papers were revised at the table while kids and pets dashed in and out."
+  },
+  {
+    "id": 26,
+    "title": "Tea Time at the Professor's",
+    "size": "14\" X 11\" mat",
+    "Year": 2015,
+    "material": "Watercolor on paper",
+    "price": 400,
+    "category": "The Professor's Interiors",
+    "img": "./img/professorsInteriors/Tea Time at the Professor s House.jpg",
+    "Comment": "Tea Time at the Professor? House several students came by every Thursday for a traditional Tea."
+  }
   ]
 
+  let paintingCloseup = document.getElementById("paintingCloseup")
+  let closeupPic = document.getElementById("closeupPic")
+  let backToGallery = document.getElementById("backToGallery")
+  let nextImg = document.getElementById("nextImg")
+  let prevImg = document.getElementById("prevImg")
+
+  backToGallery.addEventListener("click", function(){
+    paintingCloseup.className = "hidden"
+    paintingList.className = "galleryHolder"
+  })
 
   let createPaintingElements = function(p){
     // Object with all the paintings and info
@@ -44,12 +154,18 @@ let paintings = [
     // Loop through the paintings array of objects
 
     for(pi of paintings){
+      //Holds pic and info text
       var galleryDiv = document.createElement("div");
       galleryDiv.className += ("galleryPicHolder")
       myDF.appendChild(galleryDiv);
       //img src, class name
       var img = document.createElement("img");
       img.src = pi.img;
+      img.addEventListener("click", function(e){
+        paintingList.className = "hidden"
+        paintingCloseup.className= "paintingCloseup"
+        closeupPic.src=e.target.src
+      })
       galleryDiv.appendChild(img);
       // Info text box at bottom of img
       var infoDiv = document.createElement("div");
@@ -71,5 +187,6 @@ let paintings = [
         paintingList.appendChild(myDF);
     }
   }
+
 
 window.onload = createPaintingElements;
