@@ -104,6 +104,7 @@ a{
   position: absolute;
   top:50%;
   cursor: pointer;
+  z-index: 1;
 }
 #prevImg{
   left:5%;
@@ -112,15 +113,33 @@ a{
   left:95%;
   transform: translate(-100%,0);
 }
-#caption{
+.captionButton{
+  color:white;
   position: absolute;
-  bottom:0%;
+  bottom: 0%;
+  left:50%;
+  transform: translate(-50%,0);
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  width: 5vh;
+  height: 5vh;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#caption, .caption{
+  position: absolute;
+  max-width: 95%;
+  bottom:5%;
   left:50%;
   transform: translate(-50%,0);
   color: white;
-  font-size: 1.6em;
+  font-size: 1.1em;
   border: 1px solid white;
   background: rgba(0,0,0,.3);
+  padding: 3px;
   font-family: "Architects Daughter";
 }
 .galleryHolder{

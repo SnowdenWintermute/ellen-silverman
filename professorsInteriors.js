@@ -2,10 +2,10 @@ let paintings = [
   {
   "id": 15,
   "title": "Aunt Tullie's Living Room ",
-  "size": "11\" X 14\" mat",
+  "size": "11\" X 14\" Mat",
   "Year": 2016,
   "material": "Acrylic on paper",
-  "price": 400,
+  "price": "$400",
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/15.jpg",
   "Comment": "The Professor always loved Aunt Tullie\'s Living Room, it felt like late spring there, even in the middle of winter."
@@ -13,10 +13,10 @@ let paintings = [
 {
   "id": 16,
   "title": "Director's Office",
-  "size": "11\" X 14\" mat",
+  "size": "11\" X 14\" Mat",
   "Year": 2016,
   "material": "Acrylic on paper",
-  "price": 400,
+  "price": "$400",
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/16.jpg",
   "Comment": "The Professor always enjoyed having lunch with the Director in his office."
@@ -24,10 +24,10 @@ let paintings = [
 {
   "id": 17,
   "title": "English Living Room",
-  "size": "14\" X 11\" mat",
+  "size": "14\" X 11\" Mat",
   "Year": 2016,
   "material": "Watercolor on paper",
-  "price": 400,
+  "price": "$400",
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/17.jpg",
   "Comment": "The Professor\'s Grandmother\'s Living Room in England always brought back fond memories of having High Tea with Grandmother and Aunt Tullie."
@@ -35,10 +35,10 @@ let paintings = [
 {
   "id": 18,
   "title": "Favorite Restaurant in Italy",
-  "size": "11\" X 14\" mat",
+  "size": "11\" X 14\" Mat",
   "Year": 2016,
   "material": "Acrylic on paper",
-  "price": 400,
+  "price": "$400",
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/18.jpg",
   "Comment": "At the Professor\'s favorite restaurant, the food was not as memorable as the people, but there had never been a meal that was not pure delight."
@@ -46,32 +46,32 @@ let paintings = [
 {
   "id": 19,
   "title": "Harry's Enclosed Porch",
-  "size": "11\" X 14\" mat",
+  "size": "11\" X 14\" Mat",
   "Year": 2016,
   "material": "Acrylic on paper",
-  "price": 400,
+  "price": "$400",
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/19.jpg",
-  "Comment": "The Professor and Harry, sat in Harry\'s enclosed porch on New Year\'s Day and had lunch."
+  "Comment": "The Professor and Harry sat in Harry\'s enclosed porch on New Year\'s Day and had lunch."
 },
 {
   "id": 20,
   "title": "Harry's Living Room",
-  "size": "14\" X 11\" mat",
+  "size": "14\" X 11\" Mat",
   "Year": 2016,
   "material": "Acrylic on paper",
-  "price": 400,
+  "price": "$400",
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/20.jpg",
-  "Comment": "The family always spent New Year\'s Eve at Harry, the Professor's brother\'s house. At midnight the tradition has been to wear the animal mask that they had got in Africa when they were children and tickling each other with peacock feathers. In years past their whole family would get involved, but this year it was just the two of them. It was good to have a brother to share a tradition with."
+  "Comment": "The family always spent New Year\'s Eve at Harry, the Professor's brother\'s house. At midnight the tradition has been to wear the animal masks that they got in Africa when they were children, and tickling each other with peacock feathers. In years past their whole family would get involved, but this year it was just the two of them. It was good to have a brother to share a tradition with."
 },
 {
   "id": 21,
   "title": "Lydia's for Thanksgiving",
-  "size": "22\" x 28\" mat",
+  "size": "22\" x 28\" Mat",
   "Year": 2017,
   "material": "Acrylic on paper",
-  "price": 800,
+  "price": "$800",
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/21.jpg",
   "Comment": "Lydia always had everyone over for Thanksgiving. During dinner there were people sitting in the hall, and even on the stairs, but somehow there was still stimulating conversation and always laughter."
@@ -79,32 +79,32 @@ let paintings = [
 {
   "id": 22,
   "title": "Museum Court Yard",
-  "size": "11\" X 14\" mat",
+  "size": "11\" X 14\" Mat",
   "Year": 2017,
   "material": "Acrylic on paper",
-  "price": 400,
+  "price": "$400",
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/22.jpg",
-  "Comment": "The museum court yard was the perfect place to do research. It was so nice that they let you take some of their archive material, out there to study."
+  "Comment": "The museum courtyard was the perfect place to do research. It was so nice that they let you take some of their archive material, out there to study."
 },
 {
   "id": 23,
   "title": "The Professor's Front Hall",
-  "size": "11\" X 14\" mat",
+  "size": "11\" X 14\" Mat",
   "Year": 2015,
   "material": "Acrylic on paper",
-  "price": 400,
+  "price": "$400",
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/23.jpg",
-  "Comment": "The professor\'s grandfather clock was a gift from grandfather Smith, it use to sit in the farm house in New Hampshire. When it chimed in the morning one almost expected to hear the rooster crow."
+  "Comment": "The professor\'s grandfather clock was a gift from grandfather Smith. Tt used to sit in the farm house in New Hampshire. When it chimed in the morning one almost expected to hear the rooster crow."
 },
 {
   "id": 24,
   "title": "The Professor's Study",
-  "size": "14\" X 11\" mat",
+  "size": "14\" X 11\" Mat",
   "Year": 2015,
   "material": "Acrylic on paper",
-  "price": 400,
+  "price": "$400",
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/24.jpg",
   "Comment": "The Geology Club met every second Wednesday at 5:00 here in the study. During that time the room was always packed with life and laughter."
@@ -112,10 +112,10 @@ let paintings = [
 {
   "id": 25,
   "title": "The Professor's Unattached Porch",
-  "size": "14\" X 11\" mat",
+  "size": "14\" X 11\" Mat",
   "Year": 2017,
   "material": "Acrylic on paper",
-  "price": 400,
+  "price": "$400",
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/25.jpg",
   "Comment": "In the Spring the unattached porch was used at a study. Countless papers were revised at the table while kids and pets dashed in and out."
@@ -123,10 +123,10 @@ let paintings = [
 {
   "id": 26,
   "title": "Tea Time at the Professor's",
-  "size": "14\" X 11\" mat",
+  "size": "14\" X 11\" Mat",
   "Year": 2015,
   "material": "Watercolor on paper",
-  "price": 400,
+  "price": "$400",
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/26.jpg",
   "Comment": "Tea Time at the Professor\' House several students came by every Thursday for a traditional Tea."
@@ -142,6 +142,8 @@ let paintings = [
   let nextImg = document.getElementById("nextImg")
   let prevImg = document.getElementById("prevImg")
   let caption = document.getElementById("caption")
+  let closeCaption = document.getElementById("closeCaption")
+  let restoreCaption = document.getElementById("restoreCaption")
 
   let createPaintingElements = function(p){
     // Object with all the paintings and info
@@ -243,6 +245,16 @@ let newCaption = () => {
   })
   prevImg.addEventListener("click", function(){
     prev();
+  })
+  closeCaption.addEventListener("click", function(){
+    caption.className = "hidden"
+    closeCaption.className="hidden"
+    restoreCaption.className="captionButton"
+  })
+  restoreCaption.addEventListener("click", function(){
+    caption.className = "caption"
+    restoreCaption.className="hidden"
+    closeCaption.className = "captionButton"
   })
 //detect keys
   document.onkeydown = function(e) {
