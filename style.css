@@ -67,36 +67,38 @@ a{
   font-size: 62.5%;
   margin-top:90px;
 }
+.pagesWrapperNoMargin{
+  margin-top: 0;
+}
 
 /* Galleries */
 #backToGallery{
-  width:25vmin;
+  width:8vmin;
   height:8vmin;
   background: transparent;
   position: absolute;
-  top:86%;
-  left:50%;
-  transform: translate(-50%,0);
-  border-radius: 15px;
-  border: 1px solid white;
+  top:5%;
+  left:95%;
+  transform: translate(-100%,0);
   display: flex;
   justify-content: center;
   align-items: center;
   color:white;
   text-shadow: 1px 1px 2px black;
-  font-size: 1.6em;
+  font-size: 1.3em;
   font-family: "Roboto Condensed", sans-serif;
   cursor: pointer;
 }
 #nextImg,
 #prevImg{
-  height: 7vmin;
-  width: 7vmin;
+  height: 11vmin;
+  width: 11vmin;
   border-radius: 15px;
   border: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.5em;
   color:white;
   text-shadow: 1px 1px 2px black;
   position: absolute;
@@ -110,6 +112,17 @@ a{
   left:95%;
   transform: translate(-100%,0);
 }
+#caption{
+  position: absolute;
+  bottom:0%;
+  left:50%;
+  transform: translate(-50%,0);
+  color: white;
+  font-size: 1.6em;
+  border: 1px solid white;
+  background: rgba(0,0,0,.3);
+  font-family: "Architects Daughter";
+}
 .galleryHolder{
   display: flex;
   justify-content: center;
@@ -119,14 +132,16 @@ a{
   display: none;
 }
 .paintingCloseup{
-  height: 100%;
-  width:100vw;
+  position: absolute;
+  height: 100vh;
+  width:100%;
   display: flex;
   justify-content: center;
-  position: relative;
+  background: black;
 }
 .paintingCloseup img{
-  max-height:80vh;
+  object-fit: contain;
+  max-height:100vh;
   max-width: 100%;
 }
 .galleryPicHolder{

@@ -8,7 +8,7 @@ let paintings = [
   "price": 400,
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/15.jpg",
-  "Comment": "The Professor always loved Aunt Tullie?s Living Room, it felt like late spring there, even in the middle of winter."
+  "Comment": "The Professor always loved Aunt Tullie\'s Living Room, it felt like late spring there, even in the middle of winter."
 },
 {
   "id": 16,
@@ -30,7 +30,7 @@ let paintings = [
   "price": 400,
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/17.jpg",
-  "Comment": "The Professor?s Grandmother?s Living Room in England always brought back fond memories of having High Tea with Grandmother and Aunt Tullie."
+  "Comment": "The Professor\'s Grandmother\'s Living Room in England always brought back fond memories of having High Tea with Grandmother and Aunt Tullie."
 },
 {
   "id": 18,
@@ -41,7 +41,7 @@ let paintings = [
   "price": 400,
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/18.jpg",
-  "Comment": "At the Professor?s favorite restaurant, the food was not as memorable as the people, but there had never been a meal that was not pure delight."
+  "Comment": "At the Professor\'s favorite restaurant, the food was not as memorable as the people, but there had never been a meal that was not pure delight."
 },
 {
   "id": 19,
@@ -52,7 +52,7 @@ let paintings = [
   "price": 400,
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/19.jpg",
-  "Comment": "The Professor and Harry, sat in Harry?s enclosed porch on New Year?s Day and had lunch."
+  "Comment": "The Professor and Harry, sat in Harry\'s enclosed porch on New Year\'s Day and had lunch."
 },
 {
   "id": 20,
@@ -63,7 +63,7 @@ let paintings = [
   "price": 400,
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/20.jpg",
-  "Comment": "The family always spent New Year?s Eve at Harry, the Professor's brother?s house. At midnight the tradition has been to wear the animal mask that they had got in Africa when they were children and tickling each other with peacock feathers. In years past their whole family would get involved, but this year it was just the two of them. It was good to have a brother to share a tradition with."
+  "Comment": "The family always spent New Year\'s Eve at Harry, the Professor's brother\'s house. At midnight the tradition has been to wear the animal mask that they had got in Africa when they were children and tickling each other with peacock feathers. In years past their whole family would get involved, but this year it was just the two of them. It was good to have a brother to share a tradition with."
 },
 {
   "id": 21,
@@ -96,7 +96,7 @@ let paintings = [
   "price": 400,
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/23.jpg",
-  "Comment": "The professor?s grandfather clock was a gift from grandfather Smith, it use to sit in the farm house in New Hampshire. When it chimed in the morning one almost expected to hear the rooster crow."
+  "Comment": "The professor\'s grandfather clock was a gift from grandfather Smith, it use to sit in the farm house in New Hampshire. When it chimed in the morning one almost expected to hear the rooster crow."
 },
 {
   "id": 24,
@@ -129,16 +129,19 @@ let paintings = [
   "price": 400,
   "category": "The Professor's Interiors",
   "img": "./img/professorsInteriors/26.jpg",
-  "Comment": "Tea Time at the Professor? House several students came by every Thursday for a traditional Tea."
+  "Comment": "Tea Time at the Professor\' House several students came by every Thursday for a traditional Tea."
 },
   ]
 
-
+  let pageWrapper = document.getElementById("pageWrapper")
+  let nav = document.getElementById("topMenu")
+  let pageLabel = document.getElementById("pageLabel")
   let paintingCloseup = document.getElementById("paintingCloseup")
   let closeupPic = document.getElementById("closeupPic")
   let backToGallery = document.getElementById("backToGallery")
   let nextImg = document.getElementById("nextImg")
   let prevImg = document.getElementById("prevImg")
+  let caption = document.getElementById("caption")
 
   let createPaintingElements = function(p){
     // Object with all the paintings and info
@@ -158,11 +161,16 @@ let paintings = [
       var img = document.createElement("img");
       img.src = pi.img;
       img.number = pi.id;
+      img.caption = pi.Comment;
       img.addEventListener("click", function(e){
         paintingList.className = "hidden"
+        nav.className="hidden"
+        pageWrapper.className="pagesWrapperNoMargin"
+        pageLabel.className="hidden"
         paintingCloseup.className= "paintingCloseup"
         closeupPic.src=e.target.src
         closeupPic.number = e.target.number
+        caption.textContent = e.target.caption
         console.log(e.target.number)
       })
       galleryDiv.appendChild(img);
@@ -188,29 +196,63 @@ let paintings = [
     }
   }
 
+
+//navigate closeups
+let goBack = () => {
+  paintingCloseup.className = "hidden"
+  pageWrapper.className = "pagesWrapper"
+  nav.className="nav"
+  pageLabel.className="pageLabel"
+  paintingList.className = "galleryHolder"
+}
+let next = () => {
+  let currentNumber = closeupPic.number
+  if(currentNumber<26){
+  let newNumber = currentNumber + 1
+  console.log(newNumber)
+  closeupPic.number ++
+  closeupPic.src = `./img/professorsInteriors/${newNumber}.jpg`
+}
+newCaption()
+}
+let prev = () => {
+  let currentNumber = closeupPic.number
+  if(currentNumber>15){
+  let newNumber = currentNumber - 1
+  console.log(newNumber)
+  closeupPic.number --
+  closeupPic.src = `./img/professorsInteriors/${newNumber}.jpg`
+}
+newCaption()
+}
+let newCaption = () => {
+  let newCaption = ""
+  for(pi of paintings){
+    if(closeupPic.number==pi.id){
+      newCaption = pi.Comment
+    }
+  }
+  caption.textContent=newCaption
+}
+//clickable buttons
   backToGallery.addEventListener("click", function(){
-    paintingCloseup.className = "hidden"
-    paintingList.className = "galleryHolder"
+    goBack();
   })
-
   nextImg.addEventListener("click", function(){
-    let currentNumber = closeupPic.number
-    if(currentNumber<26){
-    let newNumber = currentNumber + 1
-    console.log(newNumber)
-    closeupPic.number ++
-    closeupPic.src = `./img/professorsInteriors/${newNumber}.jpg`
-  }
+    next();
   })
-
   prevImg.addEventListener("click", function(){
-    let currentNumber = closeupPic.number
-    if(currentNumber>15){
-    let newNumber = currentNumber - 1
-    console.log(newNumber)
-    closeupPic.number --
-    closeupPic.src = `./img/professorsInteriors/${newNumber}.jpg`
-  }
+    prev();
   })
+//detect keys
+  document.onkeydown = function(e) {
+    e = e || window.event;
+    if (e.keyCode == '38') { }//up
+    else if (e.keyCode == '40') { }// down arrow
+    else if (e.keyCode == '37') {prev()}
+    else if (e.keyCode == '39') {next()}
+    else if(e.keyCode=='27') {goBack()}
+};
+
 
 window.onload = createPaintingElements;

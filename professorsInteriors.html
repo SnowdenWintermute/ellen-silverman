@@ -9,9 +9,9 @@
   <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Roboto+Condensed|Source+Sans+Pro" rel="stylesheet">
 </head>
 <body>
-  <div class="wrapper pagesWrapper">
+  <div class="wrapper pagesWrapper" id="pageWrapper">
             <!-- Navbar -->
-    <div class="nav">
+    <div class="nav" id="topMenu">
     <label class="hamburger" for="toggle">&#9776;</label>
     <input type="checkbox" id="toggle"/>
     <div class="menu">
@@ -21,9 +21,10 @@
       <a href="./contact.php">Contact</a>
     </div>
   </div>
-
+  <div class="pageLabel" id="pageLabel">
   <p class="pageLabel"><a href="./index.html">Lucretia E. McGuff-Silverman</a> - <a href="./artworks.html">Artworks</a>  - Professor's Interiors</p>
   <hr/>
+  </div>
             <!-- Gallery -->
 
 <div id="paintingList" class="galleryHolder">
@@ -32,13 +33,16 @@
 
 <div id="paintingCloseup" class="hidden">
   <div id="backToGallery">
-    Go Back
+    ✖
   </div>
   <div id="nextImg">
     ▶
   </div>
   <div id="prevImg">
     ◀
+  </div>
+  <div id="caption">
+    aoeu
   </div>
 
 <img id="closeupPic" src="./img/1.jpg" number="0">
