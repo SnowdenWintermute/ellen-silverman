@@ -128,11 +128,12 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1vh;
 }
 #caption, .caption{
   position: absolute;
   max-width: 95%;
-  bottom:5%;
+  bottom:7%;
   left:50%;
   transform: translate(-50%,0);
   color: white;
@@ -354,4 +355,6 @@ label{
   .contactInput{
     width:80%;
   }
+  #caption, .caption{
+    width: 95%;
 }
