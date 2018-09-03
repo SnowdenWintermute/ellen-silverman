@@ -25,14 +25,14 @@
 <p class="pageLabel"><a href="./index.html">Lucretia E. McGuff-Silverman</a> - Contact</p>
 <hr/>
   <div class="pageDiv" id="contactDiv">
-    <form id="contactForm" action="contact.php" method="post">
+    <form id="contactForm" action="submit.php" method="post">
     <input class="contactInput" name="name" type="text" required placeholder="Name"/>
     <input class="contactInput" name="email" type="email" required placeholder="Email"/>
     <textarea class="contactInput contactInputText" name="message" id="contactText" placeholder="Message"></textarea>
     <button class="button transparentButton" name="submit" id="formSubmit" type="submit">Send</i></button>
   </form>
   </div>
-  
+
 <footer>
   <div id="footerLinks">
     <a href="./index.html">Home</a>&nbsp;|
