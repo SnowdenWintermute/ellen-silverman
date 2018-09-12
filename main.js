@@ -1,12 +1,16 @@
 var i=0; //start point
 var images=[];
-var time = 6000;
+var time = 5000;
 
 // Image List
-images[0]='img/1.jpg';
-images[1]='img/2.jpg';
-images[2]='img/3.jpg';
-images[3]='img/4.jpg';
+images[0]='img/4.png';
+images[1]='img/3.png';
+images[2]='img/2.jpg';
+
+//elements
+let bg1 = document.getElementById("bgImg1")
+let bg2 = document.getElementById("bgImg2")
+let bg3 = document.getElementById("bgImg3")
 
 // Change images
 function changeImg(){
@@ -19,4 +23,27 @@ function changeImg(){
   setTimeout('changeImg()', time);
 }
 
-window.onload = changeImg;
+//change opacity
+let changeOpacity = function(){
+    if(bg1.className !== "bgImgShow"
+    && bg2.className !== "bgImgShow"
+    && bg3.className !== "bgImgShow"){
+      bg1.className = "bgImgShow"
+    }else if(bg1.className==="bgImgShow"){
+      bg2.className = "bgImgShow"
+      bg1.className = "bgImg"
+      // console.log("ey");
+    }else if(bg2.className==="bgImgShow"){
+      bg3.className = "bgImgShow"
+      bg2.className = "bgImg"
+      // console.log("oy")
+    }else if(bg3.className==="bgImgShow"){
+      bg1.className = "bgImgShow"
+      bg3.className = "bgImg"
+    }
+      setTimeout(changeOpacity, time);
+}
+
+window.onLoad = changeOpacity();
+
+// window.onload = changeImg;
