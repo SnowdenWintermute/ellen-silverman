@@ -69,7 +69,7 @@ a{
   object-fit: cover;
   pointer-events: none;
   opacity: 0;
-  transition: all 1100ms ease-in-out 0s;
+  transition: opacity 1100ms ease-in-out 0s;
 }
 .bgImgShow{
   position: absolute;
@@ -80,7 +80,7 @@ a{
   object-fit: cover;
   pointer-events: none;
   opacity: .9;
-  transition: all 1100ms ease-in-out 0s;
+  transition: opacity 1100ms ease-in-out 0s;
 }
 #middleText{
   position: absolute;

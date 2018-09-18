@@ -30,3 +30,137 @@ id,title,size,Year,material,price,category,img,Comment
 29,"Salt Marsh, November","11"" X 14""",2016,Acrylic,$400 ,Salt Marsh,./img/saltMarsh/29.jpg,"Salt Marsh, November"
 30,"Salt Marsh, November 2","11"" X 14""",2016,Acrylic,$400 ,Salt Marsh,./img/saltMarsh/30.jpg,"Salt Marsh, November 2"
 31,"Salt Marsh, November 3","11"" X 14""",2016,Acrylic,$400 ,Salt Marsh,./img/saltMarsh/31.jpg,"Salt Marsh, November 3"
+32,"Stone in the Middle of the Road, Split in Two","10"" x 10""",2015,Acrylic,100,Stone in the Middle of the Road,./img/stone/32.jpg,"Stone in the Middle of the Road, Split in Two"
+33,"Stone in the Middle of the Road, In the Woods","10"" x 10""",2015,Acrylic,100,Stone in the Middle of the Road,./img/stone/33.jpg,"Stone in the Middle of the Road, In the Woods"
+34,"Stone in the Middle of the Road, From Both Sides","10"" x 10""",2015,Acrylic,100,Stone in the Middle of the Road,./img/stone/34.jpg,"Stone in the Middle of the Road, From Both Sides"
+35,"Stone in the Middle of the Road,  As the Leaves Fall","10"" x 10""",2015,Acrylic,100,Stone in the Middle of the Road,./img/stone/35.jpg,"Stone in the Middle of the Road,  As the Leaves Fall"
+36,"Stone in the Middle of the Road, It Grows On You","10"" x 10""",2015,Acrylic,100,Stone in the Middle of the Road,./img/stone/36.jpg,"Stone in the Middle of the Road, It Grows On You"
+37,"Stone in the Middle of the Road, Could Not Stop Nature","10"" x 10""",2015,Acrylic,100,Stone in the Middle of the Road,./img/stone/37.jpg,"Stone in the Middle of the Road, Could Not Stop Nature"
+38,"Stone in the Middle of the Road, Diverts the Path","10"" x 10""",2015,Acrylic,100,Stone in the Middle of the Road,./img/stone/38.jpg,"Stone in the Middle of the Road, Diverts the Path"
+39,"Stone in the Middle of the Road, As a Bridge","10"" x 10""",2015,Acrylic,100,Stone in the Middle of the Road,./img/stone/39.jpg,"Stone in the Middle of the Road, As a Bridge"
+40,"Stone in the Middle of the Road, Split in Two, a Different View","10"" x 10""",2015,Acrylic,100,"Stone in the Middle of the Road, Split in Two",./img/stone/40.jpg,"Stone in the Middle of the Road, Split in Two, a Different View"
+41,"Stone in the Middle of the Road, It is the Small Things That Make a Difference ","10"" x 10""",2015,Acrylic,100,Stone in the Middle of the Road,./img/stone/41.jpg,"Stone in the Middle of the Road, It is the Small Things That Make a Difference "
+42,"A R Wallace, Listening to a Tuba Player","11"" X 14"" mat",2006 - 2008,Pencil on paper,$50 ,Drawing,./img/drawings/42.jpg,"A R Wallace, Listening to a Tuba Player"
+43,Advise for the Queen,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/43.jpg,Advise for the Queen
+44,Amalia's Pearls,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/44.jpg,Amalia's Pearls
+45,Cat's Spirit,"11"" X 14"" mat",2006 - 2008,Ink on paper,$50 ,Drawing,./img/drawings/45.jpg,Cat's Spirit
+46,"Cezanne and Hippos, Near Caravan","11"" X 14"" mat",2006 - 2008,Pencil on paper,$50 ,Drawing,./img/drawings/46.jpg,"Cezanne and Hippos, Near Caravan"
+47,"Children, Gloves, and Animals","11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/47.jpg,"Children, Gloves, and Animals"
+48,Choosing a Tea Pot,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/48.jpg,Choosing a Tea Pot
+49,Contemplating the Universe,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/49.jpg,Contemplating the Universe
+50,Desert Nights,"11"" x 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/$50.jpg,Desert Nights
+51,Ellis Island,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/51.jpg,Ellis Island
+52,Farmers,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/52.jpg,Farmers
+53,Feeding the Animals,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/53.jpg,Feeding the Animals
+54,Fishing for God,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/54.jpg,Fishing for God
+55,Flight,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/55.jpg,Flight
+56,Frog Legs,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/56.jpg,Frog Legs
+57,Full Moon,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/57.jpg,Full Moon
+58,Head of a Girl,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/58.jpg,Head of a Girl
+59,Horse Races on the Steppes,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/59.jpg,Horse Races on the Steppes
+60,In Flight,"11"" x 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/60.jpg,In Flight
+61,In the Jungle,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/61.jpg,In the Jungle
+62,In the Tent,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/62.jpg,In the Tent
+63,Island Archeology,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/63.jpg,Island Archeology
+64,It is Spring,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/64.jpg,It is Spring
+65,Italian Sunglasses,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/65.jpg,Italian Sunglasses
+66,Japenese Physicist,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/66.jpg,Japenese Physicist
+67,Judy's Grand Daughter,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/67.jpg,Judy's Grand Daughter
+68,Listening,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/68.jpg,Listening
+69,Market Place,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/69.jpg,Market Place
+70,Midnight in the Garden of Art and Science,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/70.jpg,Midnight in the Garden of Art and Science
+71,Naptime,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/71.jpg,Naptime
+72,Nightmare at the Bayou,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/72.jpg,Nightmare at the Bayou
+73,Observing Closely,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/73.jpg,Observing Closely
+74,Ponds Edge,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/74.jpg,Ponds Edge
+75,Questions,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/75.jpg,Questions
+76,Recital,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/76.jpg,Recital
+77,Resting,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/77.jpg,Resting
+78,School Children,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/78.jpg,School Children
+79,Seated Model,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/79.jpg,Seated Model
+80,Silk Road,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/80.jpg,Silk Road
+81,St John's Pond,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/81.jpg,St John's Pond
+82,Staying a Float,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/82.jpg,Staying a Float
+83,The Armchair Traveler,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/83.jpg,The Armchair Traveler
+84,The Cosmic Car Therory,"11""  X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/84.jpg,The Cosmic Car Therory
+85,The Dance,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/85.jpg,The Dance
+86,The Hall,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/86.jpg,The Hall
+87,The Library,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/87.jpg,The Library
+88,The Parade,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/88.jpg,The Parade
+89,The Road to the Market,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/89.jpg,The Road to the Market
+90,The Tall Tale,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/90.jpg,The Tall Tale
+91,The Waiting Room,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/91.jpg,The Waiting Room
+92,They Could Not Be Caught,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/92.jpg,They Could Not Be Caught
+93,They Talked of Religion,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/93.jpg,They Talked of Religion
+94,They Thought About the Day Over Coffee,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/94.jpg,They Thought About the Day Over Coffee
+95,They Waited,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/95.jpg,They Waited
+96,Travel Picture,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/96.jpg,Travel Picture
+97,Under the Bridge,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/97.jpg,Under the Bridge
+98,Under the Island,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/98.jpg,Under the Island
+99,While he Sat his Thoughts Wondered,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/99.jpg,While he Sat his Thoughts Wondered
+100,Wrestlers,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/100.jpg,Wrestlers
+101,Chet 1,"8"" x 10"" mat",2009,Watercolor on paper,100,Cold River Camp,./img/crc/101.jpg,Chet 1
+102,Chet 2,"8"" x 10"" mat",2009,Watercolor on paper,100,Cold River Camp,./img/crc/102.jpg,Chet 2
+103,Chet 3,"8"" x 10"" mat",2009,Watercolor on paper,100,Cold River Camp,./img/crc/103.jpg,Chet 3
+104,Cold River Field,"8"" x 10"" mat",2008,Acrylic on paper,100,Cold River Camp,./img/crc/104.jpg,Cold River Field
+105,"Cold River Library, Night","11"" X 14"" mat",2010,Pastels,400,Cold River Camp,./img/crc/105.jpg,"Cold River Library, Night"
+106,Cold River Porch,"11"" X 14"" mat",2009,Watercolor on paper,400,Cold River Camp,./img/crc/106.jpg,Cold River Porch
+107,Cold River Cabin,"11"" X 14"" mat",2013,Watercolor on paper,400,Cold River Camp,./img/crc/107.jpg,Cold River Cabin
+108,Cold River Library 1,"11"" X 14"" mat",2010,Watercolor on paper,400,Cold River Camp,./img/crc/108.jpg,Cold River Library 1
+109,Cold River Library 2,"11"" X 14"" mat",2010,Watercolor on paper,400,Cold River Camp,./img/crc/109.jpg,Cold River Library 2
+110,Cold River Porch 2,"11"" X 14"" mat",2014,Watercolor on paper,400,Cold River Camp,./img/crc/110.jpg,Cold River Porch 2
+111,Cold River Vantican City,"11"" X 14"" mat",2014,Watercolor on paper,400,Cold River Camp,./img/crc/111.jpg,Cold River Vantican City
+112,Path to Emerald Pool,"18"" x 24""",2016,Acrylic,800,Cold River Camp,./img/crc/112.jpg,Path to Emerald Pool
+113,Tea House at Cold River,"11"" X 14"" mat",2009,Watercolor on paper,400,Cold River Camp,./img/crc/113.jpg,Tea House at Cold River
+114,Spring Haven Interior,"11"" X 14"" mat",2013,Watercolor on paper,sold,Cold River Camp,./img/crc/114.jpg,Spring Haven Interior
+115,Spring Haven Exterior,"11"" x 14""  mat",2013,Watercolor on paper,sold,Cold River Camp,./img/crc/115.jpg,Spring Haven Exterior
+116,Bears,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/116.jpg,Bears
+117,Boomer,"10"" x 8"" mat",2011,Acrylic,SOLD,Animals,./img/animals/117.jpg,Boomer
+118,Boomer 2,"10"" x 8"" mat",2011,Acrylic,SOLD,Animals,./img/animals/118.jpg,Boomer 2
+119,Cat  ,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/119.jpg,Cat  
+120,Cats,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/120.jpg,Cats
+121,Chipmunk,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/121.jpg,Chipmunk
+122,Chipmunk 2,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/122.jpg,Chipmunk 2
+123,Deer at Sunset,"10"" x 8"" mat",2011,Watercolor on paper,$50 ,Animals,./img/animals/123.jpg,Deer at Sunset
+124,Deer in Woods,"10"" x 8"" mat",2012,Pastels,$50 ,Animals,./img/animals/124.jpg,Deer in Woods
+125,Deer,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/125.jpg,Deer
+126,Dogs,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/126.jpg,Dogs
+127,Fox,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/127.jpg,Fox
+128,Fox 2,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/128.jpg,Fox 2
+129,Lily,"10"" x 8"" mat",2011,Acrylic,SOLD,Animals,./img/animals/129.jpg,Lily
+130,Rabbit,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/130.jpg,Rabbit
+131,Rabbit 2,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/131.jpg,Rabbit 2
+132,Rabbit 3,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/132.jpg,Rabbit 3
+133,Raccoon,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/133.jpg,Raccoon
+134,Raccoon 2,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/134.jpg,Raccoon 2
+135,Spirit of a Cat,"10"" x 8"" mat",2001,Acrylic,$50 ,Animals,./img/animals/135.jpg,Spirit of a Cat
+136,Squirrel,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/136.jpg,Squirrel
+137,Stag,"10"" x 8"" mat",2011,Acrylic,$50 ,Animals,./img/animals/137.jpg,Stag
+138,7 13 09,"10"" x 8"" Mat",2009,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/138.jpg,7 13 09
+139,7 13 09 2,"10"" x 8"" Mat",2009,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/139.jpg,7 13 09 2
+140,7 13 09 3,"10"" x 8"" Mat",2009,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/140.jpg,7 13 09 3
+141,7 16 09,"10"" x 8"" Mat",2009,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/141.jpg,7 16 09
+142,7 16 09 Evening,"10"" x 8"" Mat",2009,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/142.jpg,7 16 09 Evening
+143,7 23 09,"10"" x 8"" Mat",2009,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/143.jpg,7 23 09
+144,7 24 09 Morning,"10"" x 8"" Mat",2009,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/144.jpg,7 24 09 Morning
+145,7 24 09 Sunset,"10"" x 8"" Mat",2009,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/145.jpg,7 24 09 Sunset
+146,School Doors,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/146.jpg,School Doors
+147,Sea Isle City Sunrise,"11"" x 14"" Mat",2015,Watercolor on paper,$400 ,Sunrise/Sunset Series,./img/sunrise/147.jpg,Sea Isle City Sunrise
+148,Sea Isle City Sunrise 2,"11"" x 14"" Mat",2015,Watercolor on paper,$400 ,Sunrise/Sunset Series,./img/sunrise/148.jpg,Sea Isle City Sunrise
+149,Sunrise/ Sunset 2008 I,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/149.jpg,Sunrise/ Sunset 2008 i
+150,Sunrise/ Sunset 2008 II,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/150.jpg,Sunrise/ Sunset 2008 ii
+151,Sunrise/ Sunset 2008 III,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/151.jpg,Sunrise/ Sunset 2008 iii
+152,Sunrise/ Sunset 2008 IV,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/152.jpg,Sunrise/ Sunset 2008 iv
+153,Sunrise/ Sunset 2008 IX,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/153.jpg,Sunrise/ Sunset 2008 ix
+154,Sunrise/ Sunset 2008 V,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/154.jpg,Sunrise/ Sunset 2008 v
+155,Sunrise/ Sunset 2008 VI,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/155.jpg,Sunrise/ Sunset 2008 vi
+156,Sunrise/ Sunset 2008 VII,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/156.jpg,Sunrise/ Sunset 2008 vii
+157,Sunrise/ Sunset 2008 VIII,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/157.jpg,Sunrise/ Sunset 2008 viii
+158,Sunrise/ Sunset 2008 X,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/158.jpg,Sunrise/ Sunset 2008 x
+159,Sunrise/Sunset 2008 XI,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/159.jpg,Sunrise/Sunset 2008 xi
+160,Sunrise/ Sunset 2008 XII,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/160.jpg,Sunrise/ Sunset 2008 xii
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
