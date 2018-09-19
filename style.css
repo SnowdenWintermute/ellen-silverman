@@ -267,7 +267,7 @@ a{
   min-height: calc(100vh - 5vh - 70px - 90px)
 }
 #contactDiv{
-  background-image: url("./img/4.jpg");
+  background-image: url("./img/4.png");
   background-position: center;
   background-size: cover;
   object-fit: cover;
