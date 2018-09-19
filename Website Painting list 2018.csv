@@ -48,7 +48,7 @@ id,title,size,Year,material,price,category,img,Comment
 47,"Children, Gloves, and Animals","11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/47.jpg,"Children, Gloves, and Animals"
 48,Choosing a Tea Pot,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/48.jpg,Choosing a Tea Pot
 49,Contemplating the Universe,"11"" X 14"" mat",2006-2008,Ink on paper,$50 ,Drawing,./img/drawings/49.jpg,Contemplating the Universe
-50,Desert Nights,"11"" x 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/$50.jpg,Desert Nights
+$50 ,Desert Nights,"11"" x 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/$$50.jpg,Desert Nights
 51,Ellis Island,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/51.jpg,Ellis Island
 52,Farmers,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/52.jpg,Farmers
 53,Feeding the Animals,"11"" X 14"" mat",2006-2008,Pencil on paper,$50 ,Drawing,./img/drawings/53.jpg,Feeding the Animals
@@ -147,20 +147,107 @@ id,title,size,Year,material,price,category,img,Comment
 146,School Doors,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/146.jpg,School Doors
 147,Sea Isle City Sunrise,"11"" x 14"" Mat",2015,Watercolor on paper,$400 ,Sunrise/Sunset Series,./img/sunrise/147.jpg,Sea Isle City Sunrise
 148,Sea Isle City Sunrise 2,"11"" x 14"" Mat",2015,Watercolor on paper,$400 ,Sunrise/Sunset Series,./img/sunrise/148.jpg,Sea Isle City Sunrise
-149,Sunrise/ Sunset 2008 I,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/149.jpg,Sunrise/ Sunset 2008 i
-150,Sunrise/ Sunset 2008 II,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/150.jpg,Sunrise/ Sunset 2008 ii
-151,Sunrise/ Sunset 2008 III,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/151.jpg,Sunrise/ Sunset 2008 iii
-152,Sunrise/ Sunset 2008 IV,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/152.jpg,Sunrise/ Sunset 2008 iv
-153,Sunrise/ Sunset 2008 IX,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/153.jpg,Sunrise/ Sunset 2008 ix
-154,Sunrise/ Sunset 2008 V,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/154.jpg,Sunrise/ Sunset 2008 v
-155,Sunrise/ Sunset 2008 VI,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/155.jpg,Sunrise/ Sunset 2008 vi
-156,Sunrise/ Sunset 2008 VII,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/156.jpg,Sunrise/ Sunset 2008 vii
-157,Sunrise/ Sunset 2008 VIII,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/157.jpg,Sunrise/ Sunset 2008 viii
-158,Sunrise/ Sunset 2008 X,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/158.jpg,Sunrise/ Sunset 2008 x
-159,Sunrise/Sunset 2008 XI,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/159.jpg,Sunrise/Sunset 2008 xi
-160,Sunrise/ Sunset 2008 XII,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/160.jpg,Sunrise/ Sunset 2008 xii
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
+149,Sunrise/ Sunset 2008 I,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/149.jpg,Sunrise/ Sunset 2008 I
+1$50,Sunrise/ Sunset 2008 II,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/1$50.jpg,Sunrise/ Sunset 2008 II
+151,Sunrise/ Sunset 2008 III,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/151.jpg,Sunrise/ Sunset 2008 III
+152,Sunrise/ Sunset 2008 IV,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/152.jpg,Sunrise/ Sunset 2008 IV
+153,Sunrise/ Sunset 2008 IX,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/153.jpg,Sunrise/ Sunset 2008 IX
+154,Sunrise/ Sunset 2008 V,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/154.jpg,Sunrise/ Sunset 2008 V
+155,Sunrise/ Sunset 2008 VI,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/155.jpg,Sunrise/ Sunset 2008 VI
+156,Sunrise/ Sunset 2008 VII,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/156.jpg,Sunrise/ Sunset 2008 VII
+157,Sunrise/ Sunset 2008 VIII,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/157.jpg,Sunrise/ Sunset 2008 VIII
+158,Sunrise/ Sunset 2008 X,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/158.jpg,Sunrise/ Sunset 2008 X
+159,Sunrise/Sunset 2008 XI,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/159.jpg,Sunrise/Sunset 2008 XI
+160,Sunrise/ Sunset 2008 XII,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/160.jpg,Sunrise/ Sunset 2008 XII
+161,Sunrise/ Sunset 2008 XIII,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/161.jpg,Sunrise/ Sunset 2008 XIII
+162,Sunrise/ Sunset 2008 XIV,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/162.jpg,Sunrise/ Sunset 2008 XIV
+163,Sunrise/ Sunset 2008 XV,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/163.jpg,Sunrise/ Sunset 2008 XV
+164,Sunrise/ Sunset 2008 XVI,"10"" x 8"" Mat",2008,Watercolor on paper,$50 ,Sunrise/Sunset Series,./img/sunrise/164.jpg,Sunrise/ Sunset 2008 XVI
+165,Stone Tavern Lake Morning,"10"" x 8"" Mat",2009,Watercolor on paper,$51 ,Sunrise/Sunset Series,./img/sunrise/165.jpg,Stone Tavern Lake Morning
+166,C1,"11"" x 14""",2016,Acrylic,$400 ,Abstract and Fantasy,./img/abstract/166.jpg,C1
+167,Clay Print 2,"11"" x 14"" Mat",2008,Clay,$50 ,Abstract and Fantasy,./img/abstract/167.jpg,Clay Print 2
+168,Clay Print 3,"11"" x 14"" Mat",2008,Clay,$50 ,Abstract and Fantasy,./img/abstract/168.jpg,Clay Print 3
+169,Clay Print with Felting,"11"" x 14"" Mat",2008,Clay and Wool,$50 ,Abstract and Fantasy,./img/abstract/169.jpg,Clay Print with Felting
+170,Day of the Dead Freda Portrait,"8"" x 10""   ",2016,Acrylic,$150 ,Abstract and Fantasy,./img/abstract/170.jpg,Day of the Dead Freda Portrait
+171,Day of the Dead,"8"" x 12""",2008,Oil,$150 ,Abstract and Fantasy,./img/abstract/171.jpg,Day of the Dead
+172,Fairies Sleeping,"11"" x 14""",2009,Watercolor on paper,$400 ,Abstract and Fantasy,./img/abstract/172.jpg,Fairies Sleeping
+173,Illuminated Writing 2,"8"" x 10"" Mat",1977,Mixmedia,$50 ,Abstract and Fantasy,./img/abstract/173.jpg,Illuminated Writing 2
+174,Illuminated Writing 3,"8"" x 10"" Mat",1977,Mixmedia,$50 ,Abstract and Fantasy,./img/abstract/174.jpg,Illuminated Writing 3
+175,Illuminated Writing 4,"8"" x 10"" Mat",1977,Mixmedia,$50 ,Abstract and Fantasy,./img/abstract/175.jpg,Illuminated Writing 4
+176,Illuminated Writing 5,"8"" x 10"" Mat",1977,Mixmedia,$50 ,Abstract and Fantasy,./img/abstract/176.jpg,Illuminated Writing 5
+177,Illuminated Writing 6,"8"" x 10"" Mat",1977,Mixmedia,$50 ,Abstract and Fantasy,./img/abstract/177.jpg,Illuminated Writing 6
+178,Post Card Intersection,"5"" x 7""",2010,Mixmedia,SOLD,Abstract and Fantasy,./img/abstract/178.jpg,Post Card Intersection
+179,Natures Bath,"18"" x 24"" Mat",2009,Pastels,$800 ,Abstract and Fantasy,./img/abstract/179.jpg,Natures Bath
+180,The Source,"11"" x 14"" ",2015,Acrylic,$400 ,Abstract and Fantasy,./img/abstract/180.jpg,The Source
+181,Beach Scene 2,"11"" x 14"" Mat",2010,Watercolor on paper,$400 ,Beach,./img/beach/181.jpg,Beach Scene 2
+182,Belmar Beach,"11"" x 14"" Mat",2009,Watercolor on paper,$400 ,Beach,./img/beach/182.jpg,Belmar Beach
+183,Boats,"11"" x 14"" Mat",1975,Graphite,$50 ,Beach,./img/beach/183.jpg,Boats
+184,Island State Park Beach,"11"" x 14"" Mat",2010,Watercolor on paper,$400 ,Beach,./img/beach/184.jpg,Island State Park Beach
+185,"Mystic Connecticut, Boats","11"" x 14 Mat",1999,Pastels,$400 ,Beach,./img/beach/185.jpg,"Mystic Connecticut, Boats"
+186,Mystic Connecticut Inlet,"11"" x 14"" Mat",1999,Pastels,$400 ,Beach,./img/beach/186.jpg,Mystic Connecticut Inlet
+187,Ocean City Houses,"11"" x 14"" Mat",2014,Watercolor on paper,$400 ,Beach,./img/beach/187.jpg,Ocean City Houses
+188,Ocean City Sunrise,"11"" X 14"" Mat",2014,Watercolor on paper,$400 ,Beach,./img/beach/188.jpg,Ocean City Sunrise
+189,Sunbathers,"11"" X 14"" Mat",2009,Watercolor on paper,$400 ,Beach,./img/beach/189.jpg,Sunbathers
+190,Bone,"11"" x 14"" Mat",1977,Ink on paper,$50 ,Bone,./img/bone/190.jpg,Bone
+191,Bone Series 13,"11"" x 14"" Mat",1977,Mixmedia,$50 ,Bone,./img/bone/191.jpg,Bone Series 13
+192,Bone Series 14,"11"" x 14"" Mat",1977,Mixmedia,$50 ,Bone,./img/bone/192.jpg,Bone Series 14
+193,Bone Series 15,"11"" x 14"" Mat",1977,Ink on paper,$50 ,Bone,./img/bone/193.jpg,Bone Series 15
+194,Bone Series 16,"11"" x 14"" Mat",1977,Ink on paper,$50 ,Bone,./img/bone/194.jpg,Bone Series 16
+195,Bone Series 17,"11"" x 14"" Mat",1977,Mixmedia,$50 ,Bone,./img/bone/195.jpg,Bone Series 17
+196,Bone Series 18,"11"" x 14"" Mat",1977,Mixmedia,$50 ,Bone,./img/bone/196.jpg,Bone Series 18
+197,Bone Series 19,"11"" x 14"" Mat",1977,Mixmedia,$50 ,Bone,./img/bone/197.jpg,Bone Series 19
+198,Bone Series xx,"11"" x 14"" Mat",1977,Ink on paper,$50 ,Bone,./img/bone/198.jpg,Bone Series xx
+199,Bone Series xxi,"11"" x 14"" Mat",1977,Mixmedia,$50 ,Bone,./img/bone/199.jpg,Bone Series xxi
+200,Figure Study 1,"11"" x 14"" Mat",1977,Mixmedia,$50 ,Bone,./img/bone/200.jpg,Figure Study 1
+201,Figure Study 2,"11"" x 14"" Mat",1977,Mixmedia,$50 ,Bone,./img/bone/201.jpg,Figure Study 2
+202,Figure Study 3,"11"" x 14"" Mat",1977,Mixmedia,$50 ,Bone,./img/bone/202.jpg,Figure Study 3
+203,Assunpink Fall Weeds,"11"" x 14""",,Acrylic,$400 ,Field and Lakes,./img/fieldAndLake/203.jpg,Assunpink Fall Weeds
+204,Assunpink Fall Summer Fields,"11"" X 14""",,Watercolor on paper,$400 ,Field and Lakes,./img/fieldAndLake/204.jpg,Assunpink Fall Summer Fields
+205,Assunpink Stone Tavern Lake,"18""  X 24""",,Acrylic,$800 ,Field and Lakes,./img/fieldAndLake/205.jpg,Assunpink Stone Tavern Lake
+206,"Back Pasture, San Antonio","11"" x 14""",,Acrylic,$800 ,Field and Lakes,./img/fieldAndLake/206.jpg,"Back Pasture, San Antonio"
+207,Brown Field,"11"" x 14""",,Watercolor on paper,$400 ,Field and Lakes,./img/fieldAndLake/207.jpg,Brown Field
+208,Camp Fire,"10"" x 10""",,acrylic,$100 ,Field and Lakes,./img/fieldAndLake/208.jpg,Camp Fire
+209,Camp Fire 2,"10"" x 10""",,Acrylic,$100 ,Field and Lakes,./img/fieldAndLake/209.jpg,Camp Fire 2
+210,Camp Fire 3,"10"" x 10""",,Acrylic,$100 ,Field and Lakes,./img/fieldAndLake/210.jpg,Camp Fire 3
+211,Clay Print of leaves,"11"" x 14""",,Clay,$150 ,Field and Lakes,./img/fieldAndLake/211.jpg,Clay Print of leaves
+212,"Delaware Water Gap, Fall Field","11"" x 14"" Mat",,Watercolor on paper,$400 ,Field and Lakes,./img/fieldAndLake/212.jpg,"Delaware Water Gap, Fall Field"
+213,Dorsey's Fishing Place,"11"" x 14"" Mat",,Watercolor on paper,SOLD,Field and Lakes,./img/fieldAndLake/213.jpg,Dorsey's Fishing Place
+214,Early Summer Corn Field,"11"" x 14"" Mat",,Watercolor on paper,$400 ,Field and Lakes,./img/fieldAndLake/214.jpg,Early Summer Corn Field
+215,Early Fall Meadow,"11"" x 14"" Mat",,Watercolor on paper,$400 ,Field and Lakes,./img/fieldAndLake/215.jpg,Early Fall Meadow
+216,Field in Early Morning Light,"11"" x 14"" Mat",,Watercolor on paper,$400 ,Field and Lakes,./img/fieldAndLake/216.jpg,Field in Early Morning Light
+217,Haddonfield Bridge,"11"" x 14"" Mat",,Watercolor on paper,$400 ,Field and Lakes,./img/fieldAndLake/217.jpg,Haddonfield Bridge
+218,San Antonio Aqueduct,"24"" x 15.5""",,Acrylic,$800 ,Field and Lakes,./img/fieldAndLake/218.jpg,San Antonio Aqueduct
+219,Millstone Watershed Pond,"7"" x 9""",,Pastels,$90 ,Field and Lakes,./img/fieldAndLake/219.jpg,Millstone Watershed Pond
+220,NJ Farm House,"7"" x 9""",,Pastels,$90 ,Field and Lakes,./img/fieldAndLake/220.jpg,NJ Farm House
+221,NJ Farm  ,"7"" x 9""",,Pastels,$90 ,Field and Lakes,./img/fieldAndLake/221.jpg,NJ Farm  
+222,St Mary's Co. Barn,"8"" x 10"" Mat",1976,Watercolor on paper,$100 ,Field and Lakes,./img/fieldAndLake/222.jpg,St Mary's Co. Barn
+223,"Terhune Orchard, Apple Trees","11"" x 14""",,Acrylic,$400 ,Field and Lakes,./img/fieldAndLake/223.jpg,"Terhune Orchard, Apple Trees"
+224,"Terhune Orchard, Cherries","11"" x 14""",,Acrylic,$400 ,Field and Lakes,./img/fieldAndLake/224.jpg,"Terhune Orchard, Cherries"
+225,A Walk in the Woods,"11"" x 14""",,Acrylic,$400 ,Forest Path,./img/forestPath/225.jpg,A Walk in the Woods
+226,"Delaware Water Gap, Stream","18"" x 24""",,Acrylic,$800 ,Forest Path,./img/forestPath/226.jpg,"Delaware Water Gap, Stream"
+227,Fall Mountain Stream,"11"" x 14"" Mat",,Watercolor on paper,$400 ,Forest Path,./img/forestPath/227.jpg,Fall Mountain Stream
+228,Forest Bathing,"11"" x 14""",,Acrylic,$400 ,Forest Path,./img/forestPath/228.jpg,Forest Bathing
+229,Grid Landscape,"11"" x 14"" Mat",,Watercolor on paper,$400 ,Forest Path,./img/forestPath/229.jpg,Grid Landscape
+230,Hiking in the Mountains,"8"" X 10"" Mat",,Watercolor on paper,$300 ,Forest Path,./img/forestPath/230.jpg,Hiking in the Mountains
+231,Mountain Fall,"8"" x 10""",,Acrylic,$300 ,Forest Path,./img/forestPath/231.jpg,Mountain Fall
+232,My November Guest,"8"" x 10""",,Acrylic,$300 ,Forest Path,./img/forestPath/232.jpg,My November Guest
+233,NJ Stream,"11"" x 14"" Mat",2000,Pastels,$300 ,Forest Path,./img/forestPath/233.jpg,NJ Stream
+234,NJ Woods,"11"" x 14"" Mat",2001,Pastels,$300 ,Forest Path,./img/forestPath/234.jpg,NJ Woods
+235,North NJ Park Bridge,"11"" x 14"" Mat",2000,Pastels,$300 ,Forest Path,./img/forestPath/235.jpg,North NJ Park Bridge
+236,Printed Landscape,"11"" x 14""",,Print,$400 ,Forest Path,./img/forestPath/236.jpg,Printed Landscape
+237,River Reflections,"11"" x 14""",,Pastels,$400 ,Forest Path,./img/forestPath/237.jpg,River Reflections
+238,"Roosevelt Woods, Late Afternoon","18"" x 24""",,Acrylic,$800 ,Forest Path,./img/forestPath/238.jpg,"Roosevelt Woods, Late Afternoon"
+239,Roosevelt Woods,"10"" x 10""",,Acrylic,$100 ,Forest Path,./img/forestPath/239.jpg,Roosevelt Woods
+240,Rutgers Garden Woods,"8"" x 10""",,Acrylic,$300 ,Forest Path,./img/forestPath/240.jpg,Rutgers Garden Woods
+241,Summer Greens,"11"" x 14""",,Pastels,$400 ,Forest Path,./img/forestPath/241.jpg,Summer Greens
+242,Sunrise Mountain,"11"" x 14"" Mat",,Watercolor on paper,$400 ,Forest Path,./img/forestPath/242.jpg,Sunrise Mountain
+243,The Encounter in the Woods,"11"" x 14"" Mat",,Pastels,$400 ,Forest Path,./img/forestPath/243.jpg,The Encounter in the Woods
+244,Tillman Ravine Fall Stream,"10"" x 10""",,Acrylic,$100 ,Forest Path,./img/forestPath/244.jpg,Tillman Ravine Fall Stream
+245,Tillman Ravine Fall Stream 2,"10"" x 10""",,Acrylic,$100 ,Forest Path,./img/forestPath/245.jpg,Tillman Ravine Fall Stream 2
+246,Tillman Ravine Fall Stream 3,"10"" x 10""",,Acrylic,$100 ,Forest Path,./img/forestPath/246.jpg,Tillman Ravine Fall Stream 3
+247,Tillman Ravine Fall Stream 4,"10"" x 10""",,Acrylic,$100 ,Forest Path,./img/forestPath/247.jpg,Tillman Ravine Fall Stream 4
+248,Tillman Ravine Fall Stream 5,"10"" x 10""",,Acrylic,$100 ,Forest Path,./img/forestPath/248.jpg,Tillman Ravine Fall Stream 5
+249,Two Roads Divided in a Yellow Woods,"18"" X 24""",,Acrylic,$800 ,Forest Path,./img/forestPath/249.jpg,Two Roads Divided in a Yellow Woods
+250,Winter Woods,"8"" x 10"" Mat",,Mixmedia,$100 ,Forest Path,./img/forestPath/250.jpg,Winter Woods
+251,Woodland Path,"11"" x 14""",,Acrylic,$400 ,Forest Path,./img/forestPath/251.jpg,Woodland Path
+252,Delaware Water Gap Stream 2,"18"" x 24""",,Acrylic,$800 ,Forest Path,./img/forestPath/252.jpg,Delaware Water Gap Stream 2
